@@ -1,0 +1,34 @@
+---
+manufacturer: Dell
+model: PowerEdge R750xa
+slug: dell-poweredge-r750-xa
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 
+weight_unit: kg
+comments: '[dell_emc_poweredge-750xa-spec-sheet.pdf](https://i.dell.com/sites/csdocuments/product_docs/en/poweredge-r750xa-spec-sheet.pdf)'
+console-ports:
+  - name: Serial
+    type: de-9
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
+interfaces:
+  - name: Gi1/0/1
+    type: 1000base-t
+  - name: Gi1/0/2
+    type: 1000base-t
+  - name: Tw2/0/1
+    type: 25gbase-x-sfp28
+  - name: Tw2/0/2
+    type: 25gbase-x-sfp28
+  - name: Te4/0/1
+    type: 10gbase-t
+  - name: Te4/0/2
+    type: 10gbase-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true

@@ -23,13 +23,13 @@ console-ports:
     type: usb-c
 interfaces:
   - name: TeA/0
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TeA/1
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TeB/0
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TeB/1
-    type: 10gbase-t
+    type: 10gbase-x-sfpp
   - name: TwA/0_FE
     type: 25gbase-x-sfp28
   - name: TwA/1_FE

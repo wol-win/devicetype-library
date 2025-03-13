@@ -1,0 +1,61 @@
+---
+manufacturer: Dell
+model: PowerStore 500T
+slug: dell-powerstore-500t
+part_number: 
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: 'Ethernet ports labelled 
+           - TwA/0_FE - FrontEnd 25G Node A port 0
+           - TwB/3_BE - Backend 25G Node B port 3
+           - TeA/0 - 10G Node A port 0
+           - TeB/2 - 10G Node B port 0
+
+           [dell-powerstore-500-dc-spec-sheet.pdf](https://www.delltechnologies.com/asset/en-us/products/storage/technical-support/dell-powerstore-500-dc-spec-sheet.pdf)'
+weight: 37.4
+weight_unit: kg
+is_powered: true
+console-ports:
+  - name: Console-A
+    type: usb-c
+  - name: Console-B
+    type: usb-c
+interfaces:
+  - name: TeA/0
+    type: 10gbase-t
+  - name: TeA/1
+    type: 10gbase-t
+  - name: TeB/0
+    type: 10gbase-t
+  - name: TeB/1
+    type: 10gbase-t
+  - name: TwA/0_FE
+    type: 25gbase-x-sfp28
+  - name: TwA/1_FE
+    type: 25gbase-x-sfp28
+  - name: TwA/2_BE
+    type: 25gbase-x-sfp28
+  - name: TwA/3_BE
+    type: 25gbase-x-sfp28
+  - name: TwB/0_FE
+    type: 25gbase-x-sfp28
+  - name: TwB/1_FE
+    type: 25gbase-x-sfp28
+  - name: TwB/2_BE
+    type: 25gbase-x-sfp28
+  - name: TwB/3_BE
+    type: 25gbase-x-sfp28
+  - name: mgmtA/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: mgmtB/1
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: 'A'
+    label: PSU Node A
+    position: 'A'
+  - name: 'B'
+    label: PSU Node B
+    position: 'B'

@@ -1,0 +1,160 @@
+---
+manufacturer: Vertiv
+model: Vertiv Geist rPDU VP7G30AH
+slug: vertiv-geist-rpdu-vp7g30ah
+part_number: MGU5MGW1-36CF13-3PS56B2A10-S-A
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+comments: '[Vertiv Geist rPDU VP7G30AH]'
+weight: 9.98
+weight_unit: kg
+power-ports:
+  - name: Power
+    type: iec-60309-3p-n-e-6h
+    maximum_draw: 22000
+power-outlets:
+  - name: '01 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '02 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '03 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '04 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '05 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '06 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '07 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '08 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '09 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '10 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '11 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '12 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '13 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '14 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '15 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '16 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '17 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '18 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '19 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '20 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '21 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '22 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '23 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '24 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '25 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '26 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '27 - orange'
+    type: iec-60320-c19
+    power_port: Power
+  - name: '28 - blue'
+    type: iec-60320-c19
+    feed_leg: C
+    power_port: Power
+    feed_leg: A
+  - name: '29 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '30 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '31 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '32 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '33 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
+  - name: '34 - blue'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: A
+  - name: '35 - green'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: B
+  - name: '36 - orange'
+    type: iec-60320-c19
+    power_port: Power
+    feed_leg: C
